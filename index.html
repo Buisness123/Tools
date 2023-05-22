@@ -1,0 +1,191 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title> Pedros Toools</title>
+    <link rel = "stylesheet" href = "style.css">
+</head>
+<body onload="load()">
+    <div class="main">
+        <div class="nav">
+            
+            <div class="menu">
+                <ul>
+                    <li><a href="#store">Store</a></li>
+                    <li><a href="#featured">Featured</a></li>
+                    <li><a href="#about">About</a></li>
+
+                </ul>
+            </div>
+
+        </div>
+       
+        <div class="store" id="store">
+            <h3 class="title">Buckeye Store</h3>
+            <img src="title.jpg" alt="title" class="titleimage">
+            <p class="par">
+                Located next to the On-Ramp of the <br> I-10 West of Jackrabbit Rd, 
+                or near the  <br> intersection of Mc-85 and Van Buren
+            </p>
+               
+        </div>
+        <br>
+        <h3 class="title">Feauterued Items</h3> 
+        <div class="featured" id="featured">
+            <div class="slide">
+                <h4 class="items">Milwuakkee Tools</h4>
+                <input 
+                    class="inp"
+                    onchange="MilwuakeeChange()"
+                    id="list"
+                    type="range"
+                    min="0"
+                    max="1"   
+                    value="0"
+                    step="1" 
+                />
+                <br>
+                <em id="name"></em>
+                <h5 id="price"></h5>
+                <img class ="image" id="image" height="200px;" src="" alt="Milwuakee image"/>
+                <p id="text" class="text"></p>
+                
+
+                <br>
+                <h4 class="items">Dewalt Tools</h4>
+                <input 
+                    class="inp"
+                    onchange="DewaltChange()"
+                    id="Dewaltlist"
+                    type="range"
+                    min="0"
+                    max="0"   
+                    value="0"
+                    step="1"
+                    
+                />
+                <br>
+                <em id="Dewaltname"></em>
+                <h5 id="Dewaltprice"></h5>
+                <img class ="image" id="Dewaltimage" height="200px;" src="" alt="Dewalt image"/>
+                <p id="Dewalttext" class="text"></p>
+                
+
+                <br>
+                <h4 class="items">Echo Tools</h4>
+                <input 
+                    class="inp"
+                    onchange="EchoChange()"
+                    id="Echolist"
+                    type="range"
+                    min="0"
+                    max="3"   
+                    value="0"
+                    step="1"
+                    
+                />
+                <br>
+                <em id="Echoname"></em>
+                <h5 id="Echoprice"></h5>
+                <img class ="image" id="Echoimage" height="200px;" src="" alt="Echo image"/>
+                <p id="Echotext" class="text"></p>
+            
+
+
+
+
+
+                <br>
+                <h4 class="items">Ryobi Tools</h4>
+                <input 
+                    class="inp"
+                    onchange="RyobiChange()"
+                    id="Ryobilist"
+                    type="range"
+                    min="0"
+                    max="0"   
+                    value="0"
+                    step="1"
+                    
+                />
+                <br>
+                <em id="Ryobiname"></em>
+                <h5 id="Ryobiprice"></h5>
+                <img class ="image" id="Ryobiimage" height="200px;" src="" alt="Ryobi image"/>
+                <p id="Ryobitext" class="text"></p>
+            
+
+
+                <br>
+                <h4 class="items">Rigid Tools</h4>
+                <input 
+                    class="inp"
+                    onchange="RigidChange()"
+                    id="Rigidlist"
+                    type="range"
+                    min="0"
+                    max="0"   
+                    value="0"
+                    step="1"
+                    
+                />
+                <br>
+                <em id="Rigidname"></em>
+                <h5 id="Rigidprice"></h5>
+                <img class ="image" id="Rigidimage" height="200px;" src="" alt="Rigid image"/>
+                <p id="Rigidtext" class="text"></p>
+
+
+                <br>
+                <h4 class="items">Other Tools</h4>
+                <input 
+                    class="inp"
+                    onchange="OtherChange()"
+                    id="Otherlist"
+                    type="range"
+                    min="0"
+                    max="0"   
+                    value="0"
+                    step="1"
+                    
+                />
+                <br>
+                <em id="Othername"></em>
+                <h5 id="Otherprice"></h5>
+                <img class ="image" id="Otherimage" height="200px;" src="" alt="Other image"/>
+                <p id="Othertext" class="text"></p>
+
+
+            </div>
+           
+           
+        
+        <br>
+        </div>
+        <div class="about" id="about">
+            <h3 class="title">About information</h3>
+            <p class="par">
+                Monday-Friday <br>
+                Located at Mc 85 and Jackrabbit Road <br>
+                Saturaday-Sunday 
+            </p>
+        </div>
+
+
+
+
+
+
+    </div>
+
+
+
+
+    <script src="index.js"></script>
+</body>
+
+
+
+
+
+
+</html>

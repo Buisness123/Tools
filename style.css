@@ -1,0 +1,106 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.main{
+    width: 100%;
+    background-color: rgb(52, 64, 85);
+    background-position: center;
+    background-size: cover;
+}
+.titleimage{
+    width: 500px; 
+    height: 333px;
+    padding-left: 10px;
+}
+.nav{
+    width: 1200px;
+    height: 75px;
+    margin: auto;
+    background-color: rgb(25, 74, 143);
+}
+
+
+.menu{
+    width: 400px;
+    float: left;
+    height: 70px;
+    padding-left: 90px;
+}
+html{
+    scroll-behavior: smooth;
+}
+.store{
+    padding-top: 15px;
+    font-size: 15px;
+    background-color: rgb(52, 64, 85);
+}
+.slide{
+    padding-left: 10px;
+}
+.featured{
+    padding-top: 15px;
+    padding-left: 30px;
+    font-size: 40px;
+    background-color: rgb(52, 64, 85);
+}
+
+.about{
+    padding-top: 15px;
+    font-size: 40px;
+    background-color: rgb(80, 93, 114);
+}
+
+ul{
+    float: left;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+ul li{
+    list-style: none;
+    margin-left: 62px;
+    margin-top: 27px;
+    font-size: 30px;
+}
+
+ul li a{
+    text-decoration: none;
+    color:white;
+    font-family: Arial;
+    font-weight: bold;
+    transition: 0.4s ease-in-out;
+}
+
+ul li a:hover{
+    color:aqua;
+}
+
+.title{
+    color:black bold;
+    padding-left: 10px;
+    font-size: 35px;
+}
+
+.par{
+    color: black;
+    padding-left: 15px;
+    font-size: 13px;
+}
+
+input {
+    width: 250px;
+}
+  
+.image{
+    width: 600px;
+    height: 400px;
+}
+
+.items{
+    font-size: 30px;
+    position: center;
+}
+.text{
+    font-size: 15px;
+}
