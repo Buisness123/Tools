@@ -11,12 +11,12 @@ function load(){
 function MilwuakeeChange(){
     var milwuakposition = document.getElementById("list").value;
     var name = [
-        "MilWuakee Impact",
+        "Milwuakee Impact",
         "Milwuakee Impact 12v"
     ];
     var price = [
         "$400",
-        "$90?"
+        "$75"
     ];
     var image = [
         "milwimpact.jpg",
@@ -58,7 +58,7 @@ function Milsettext(text){
 function DewaltChange(){
     var Dewaltposition = document.getElementById("Dewaltlist").value;
     var name = [
-        "Dewalt Hondai 3100psi"
+        "Dewalt Hondai 3100PSI"
     ];
     var price = [
         "$350"
@@ -162,7 +162,7 @@ function Echosettext(Echotext){
 function RyobiChange(){
     var Ryobiposition = document.getElementById("Ryobilist").value;
     var name = [
-        "Ryobi LawnMower",
+        "Ryobi Lawnmower",
         "",
         "",
         ""
